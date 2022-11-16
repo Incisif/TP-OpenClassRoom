@@ -1,0 +1,115 @@
+header h1 {
+    text-align: center;
+    color: #e5ba79;
+}
+
+nav {
+    margin-left: 2em;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 0.8em;
+
+}
+
+nav li {
+    margin-right: 3em;
+    font-size: medium;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#banniere img {
+    width: 100%;
+    min-width: 800px;
+}
+
+.portfolio {
+    justify-content: center;
+    display: flex;
+}
+
+.portfolio img {
+    flex-wrap: wrap;
+    border-radius: 50%;
+
+}
+
+figcaption {
+    margin-top: 1em;
+    text-align: center;
+}
+
+section {
+    background-color: #F5F5F5;
+    justify-content: center;
+    
+
+
+}
+section article{
+    align-items: center;
+}
+
+section h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+article {
+    display: flex;
+    max-width: 900px;
+    margin-top: 3em;
+
+
+
+}
+
+article img {
+    width: 25%;
+    min-width: 400px;
+    border-style: solid;
+    border-width: 0px 0px 6px 6px;
+    border-color: #e5ba79;
+}
+
+.text_article h3 {
+    text-align: center;
+}
+
+.text_article {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content: space-around;
+}
+
+fieldset {
+    margin-top: 3em;
+    max-width: 25%;
+}
+
+footer {
+
+    background-color: #F5F5F5;
+    height: 5em;
+
+}
+
+footer a {
+    text-decoration: none;
+
+}
+
+footer li {
+    list-style-type: none;
+}

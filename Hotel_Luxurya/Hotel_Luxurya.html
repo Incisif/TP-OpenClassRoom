@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hotel Luxurya</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            LUXURYA
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">ACCEUIL</a></li>
+            <li><a href="#">CHAMBRES</a></li>
+            <li><a href="#">OFFRES</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">RESTAURANT</a></li>
+            <li><a href="#">PHOTOS</a></li>
+        </ul>
+    </nav>
+
+    <div id="banniere">
+        <p>
+            <img src="images/banniere.jpg" alt="Facade de l'hotel">
+        </p>
+
+    </div>
+
+    <div class="portfolio">
+        <figure>
+            <img src="images/chambre.jpg" alt="Photo d'une chambre" />
+            <figcaption>Chambre</figcaption>
+        </figure>
+        <figure>
+            <img src="images/suite.jpg" alt="Photo d'une suite" />
+            <figcaption>Suite</figcaption>
+        </figure>
+        <figure>
+            <img src="images/bar.jpg" alt="Photo du Bar" />
+            <figcaption>Bar</figcaption>
+        </figure>
+
+    </div>
+
+    <section>
+        <h2>LUXURYA, UN HÔTEL 5 ÉTOILES </h2>
+
+        <article>
+
+            <img src="images/salon.jpg" alt="Photo du salon" />
+            <div class="text_article">
+
+                <h3>INITIEZ-VOUS AU ROMANTISME</h3>
+
+                <p>Découvrez l’Art de Vivre du Romantique lors de votre séjour à l’hôtel 5 étoiles Elysia. C’est tout le
+                    style de vie du luxe,
+                    de la culture et de la passion qui se cache au cœur de cette sublime bâtisse Haussmannienne, à
+                    quelques
+                    pas de la plus belle
+                    avenue du monde. Laissez-vous séduire par l’élégance, la singularité et le confort de l’hôtel. Des
+                    chambres luxueuses et raffinées
+                    au Spa d’exception en passant par le restaurant de haute volée, vous serez charmé dès votre arrivée.
+                </p>
+                <button>découvrir</button>
+            </div>
+
+
+
+        </article>
+
+        <article>
+
+            <img src="images/gros_plan.jpg" alt="Photo en gros plan" />
+            <div class="text_article">
+                <h3>L'ÉlÉGUANCE À LA FRANÇAISE</h3>
+
+                <P>D’une élégance et d’un confort incomparables, les hôtels du groupe Inwood vous offrent l’émotion de
+                    la
+                    découverte autour de l’Art de Vivre à la Française. Romantique, Epicurien, Voyageur… Plongez dans
+                    les
+                    univers raffinés, précieux et personnalisés de chacun de nos boutiques-hôtels.
+
+                    À Paris, Bordeaux et Arcachon, plus qu’un séjour, les pièces de notre collection vous proposent de
+                    vivre
+                    des expériences d’exception. Vous ne séjournerez plus jamais à l’hôtel de la même manière…
+
+                </P>
+                <button>découvrir</button>
+            </div>
+
+
+
+        </article>
+
+
+
+    </section>
+
+
+
+    <fieldset>
+        <form method="post" action="traitement.php">
+
+            <legend>Réservez votre séjour</legend>
+            <p>
+                <label for="nom">Nom</label>
+                <input type="text" name="Nom" id="nom" placeholder="Dupond">
+            </p>
+            <p>
+                <label for="prenom">Prénom</label>
+                <input type="text" name="Prénom" id="prenom" placeholder="Marc">
+            </p>
+            <p>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="marc.dupond@gmail.com">
+            </p>
+            <p>
+                <label for="tel">Téléphone</label>
+                <input type="tel" name="tel" id="tel" placeholder="0612345678">
+            </p>
+            <p>
+                <label for="number">Places</label>
+                <input type="number" name="number" min="1" max="4" id="places" placeholder="4 Max">
+            </p>
+            <p>
+                <label for="date">Date d'arrivée</label>
+                <input type="date" name="date_ar" id="date_ar">
+            </p>
+            <p>
+                <label for="date">Date de départ</label>
+                <input type="date" name="date_dep" id="date_dep">
+            </p>
+            <p>
+
+                <input type="submit" value="Valider">
+            </p>
+
+
+
+        </form>
+    </fieldset>
+
+
+
+
+    <footer>
+        <ul>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Plan du site</a></li>
+            <li><a href="#">Recrutement</a></li>
+        </ul>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
