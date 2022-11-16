@@ -9,20 +9,19 @@
 
 <body>
     <header>
-        <h1>
-            <p>LUXURYA</p>
-        
-        </h1>
+        <h1>LUXURYA</h1>
+        <img src="images/five_stars.png" alt="logo_five_stars"/>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#">ACCUEIL</a></li>
-            <li><a href="#">CHAMBRES</a></li>
-            <li><a href="#">OFFRES</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">RESTAURANT</a></li>
-            <li><a href="#">PHOTOS</a></li>
+            <li><a href="#">accueil</a></li>
+            <li><a href="#">chambre</a></li>
+            <li><a href="#">offres</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">guide</a></li>
+            <li><a href="#">restaurant</a></li>
+            <li><a href="#">photos</a></li>
         </ul>
     </nav>
 
@@ -36,21 +35,21 @@
     <div class="portfolio">
         <figure>
             <img src="images/chambre.jpg" alt="Photo d'une chambre" />
-            <figcaption>Chambre</figcaption>
+            <figcaption>Chambre deluxe</figcaption>
         </figure>
         <figure>
             <img src="images/suite.jpg" alt="Photo d'une suite" />
-            <figcaption>Suite</figcaption>
+            <figcaption>Suite parisienne</figcaption>
         </figure>
         <figure>
             <img src="images/bar.jpg" alt="Photo du Bar" />
-            <figcaption>Bar</figcaption>
+            <figcaption>Notre bar</figcaption>
         </figure>
 
     </div>
 
     <section>
-        <h2>LUXURYA, UN HÔTEL 5 ÉTOILES </h2>
+        <h2><span class="parenthese">(</span> un hôtel 5 étoiles<span class="parenthese">)</span></h2>
 
         <article>
 
@@ -59,7 +58,7 @@
 
                 <h3>Initiez-vous au romantisme</h3>
 
-                <p>Découvrez l’Art de Vivre du Romantique lors de votre séjour à l’hôtel 5 étoiles Elysia. C’est tout le
+                <p>Découvrez l’Art de Vivre du Romantique lors de votre séjour à l’hôtel 5 étoiles Luxurya. C’est tout le
                     style de vie du luxe,
                     de la culture et de la passion qui se cache au cœur de cette sublime bâtisse Haussmannienne, à
                     quelques
@@ -105,47 +104,50 @@
 
 
 
-    <fieldset>
-        <form method="post" action="traitement.php">
+    <div class="container">
+        <fieldset>
+            <form method="post" action="traitement.php">
 
-            <legend>Réservez votre séjour</legend>
-            <p>
-                <label for="nom">Nom</label>
-                <input type="text" name="Nom" id="nom" placeholder="Dupond">
-            </p>
-            <p>
-                <label for="prenom">Prénom</label>
-                <input type="text" name="Prénom" id="prenom" placeholder="Marc">
-            </p>
-            <p>
-                <label for="email">email</label>
-                <input type="email" name="email" id="email" placeholder="marc.dupond@gmail.com">
-            </p>
-            <p>
-                <label for="tel">Téléphone</label>
-                <input type="tel" name="tel" id="tel" placeholder="0612345678">
-            </p>
-            <p>
-                <label for="number">Places</label>
-                <input type="number" name="number" min="1" max="4" id="places" placeholder="4 Max">
-            </p>
-            <p>
-                <label for="date">Date d'arrivée</label>
-                <input type="date" name="date_ar" id="date_ar">
-            </p>
-            <p>
-                <label for="date">Date de départ</label>
-                <input type="date" name="date_dep" id="date_dep">
-            </p>
-            <p>
+                <legend>Réservez votre séjour !</legend>
+                <p>
+                    <label for="nom">Nom</label>
+                    <input type="text" name="Nom" id="nom" placeholder="Dupond">
+                </p>
+                <p>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="Prénom" id="prenom" placeholder="Marc">
+                </p>
+                <p>
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" placeholder="marc.dupond@gmail.com">
+                </p>
+                <p>
+                    <label for="tel">Téléphone</label>
+                    <input type="tel" name="tel" id="tel" placeholder="0612345678">
+                </p>
+                <p>
+                    <label for="number">Places</label>
+                    <input type="number" name="number" min="1" max="4" id="places" placeholder="4 Max">
+                </p>
+                <p>
+                    <label for="date">Date d'arrivée</label>
+                    <input type="date" name="date_ar" id="date_ar">
+                </p>
+                <p>
+                    <label for="date">Date de départ</label>
+                    <input type="date" name="date_dep" id="date_dep">
+                </p>
+                <p>
 
-                <input type="submit" value="Valider">
-            </p>
+                    <input type="submit" value="Valider">
+                </p>
 
 
 
-        </form>
-    </fieldset>
+            </form>
+        </fieldset>
+        
+    </div>
 
 
 
@@ -156,12 +158,9 @@
             <li><a href="#">Plan du site</a></li>
             <li><a href="#">Recrutement</a></li>
         </ul>
+        
 
     </footer>
-
-
-
-
 
 </body>
 

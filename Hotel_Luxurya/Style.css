@@ -1,42 +1,73 @@
-
 @font-face {
     font-family: 'abelregular';
     src: url('abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('abel-regular-webfont.woff2') format('woff2'),
-         url('fonts/abel-regular-webfont.woff') format('woff'),
-         url('fonts/abel-regular-webfont.ttf') format('truetype'),
-         url('abel-regular-webfont.svg#abelregular') format('svg');
+        url('abel-regular-webfont.woff2') format('woff2'),
+        url('fonts/abel-regular-webfont.woff') format('woff'),
+        url('fonts/abel-regular-webfont.ttf') format('truetype'),
+        url('abel-regular-webfont.svg#abelregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-header h1 {
-    font-family:'abelregular';
-    text-align: center;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.parenthese {
+    color: #e5ba79;
+    font-size: 2.5em;
+}
+
+h1,
+h2,
+h3,
+li,
+figcaption,
+button {
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'abelregular';
     color: #e5ba79;
 }
 
-nav {
-    margin-left: 2em;
-
+header img {
+    width: 5em;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
-    font-size: 0.8em;
-
+    font-size: 1em;
 }
 
-nav li {
-    margin-right: 3em;
-    font-size: medium;
-
-}
 
 a {
+
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition-duration: 0.4s;
+    color: #e5ba79;
 }
 
 #banniere img {
@@ -45,14 +76,13 @@ a {
 }
 
 .portfolio {
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
 .portfolio img {
     flex-wrap: wrap;
     border-radius: 50%;
-
 }
 
 figcaption {
@@ -66,8 +96,6 @@ section {
     flex-direction: column;
     align-items: center;
     padding-bottom: 3em;
-
-
 }
 
 section article {
@@ -76,16 +104,14 @@ section article {
 
 section h2 {
     text-align: center;
-    padding: 1em;
+    margin-top: 2em;
+
 }
 
 article {
     display: flex;
     max-width: 900px;
-    margin-top: 3em;
-
-
-
+    margin-top: 2em;
 }
 
 article img {
@@ -96,43 +122,62 @@ article img {
     border-color: #e5ba79;
 }
 
-.text_article h3 {
+h3 {
     text-align: center;
 }
 
 .text_article {
     display: flex;
     flex-direction: column;
+    align-content: space-between;
     text-align: justify;
     margin-left: 2em;
     margin-right: 2em;
-    justify-content: space-around;
+
+
+}
+
+button {
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid #e5ba79;
+    transition-duration: 0.4s;
+    width: fit-content;
+    align-self: center;
+    padding: 1em;
+}
+
+button:hover {
+    background-color: #e5ba79;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
 }
 
 fieldset {
-    margin-top: 3em;
-    max-width: 25%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
 }
 
 footer {
-
-    background-color: #cac9c9;
-    height: 5em;
-   
-
-}
-
-footer a {
-    text-decoration: none;
-
-}
-
-footer ul{
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
+    background-color: #cac9c9;
+    height: 5em;
 }
-footer li {
-    
+
+
+footer ul {
+
+    display: flex;    
     list-style-type: none;
 }
+footer li{
+    margin-right: 2em;
+}
+
