@@ -161,12 +161,17 @@ button:hover {
 .container {
     display: flex;
     justify-content: center;
+    background-image:url(images/pattern_luxe.jpg);
+   
+    
+    
 
 }
 
 fieldset {
     margin-top: 2em;
     margin-bottom: 2em;
+    color: #F5F5F5;
 
 }
 
@@ -183,6 +188,7 @@ footer ul {
 
     display: flex;
     list-style-type: none;
+    padding-left: 0;
 }
 
 footer li {
