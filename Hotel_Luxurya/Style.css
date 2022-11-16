@@ -1,4 +1,17 @@
+
+@font-face {
+    font-family: 'abelregular';
+    src: url('abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('abel-regular-webfont.woff2') format('woff2'),
+         url('fonts/abel-regular-webfont.woff') format('woff'),
+         url('fonts/abel-regular-webfont.ttf') format('truetype'),
+         url('abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 header h1 {
+    font-family:'abelregular';
     text-align: center;
     color: #e5ba79;
 }
@@ -22,7 +35,7 @@ nav li {
 
 }
 
-nav a {
+a {
     text-decoration: none;
 }
 
@@ -56,7 +69,8 @@ section {
 
 
 }
-section article{
+
+section article {
     align-items: center;
 }
 
@@ -102,8 +116,9 @@ fieldset {
 
 footer {
 
-    background-color: #F5F5F5;
+    background-color: #cac9c9;
     height: 5em;
+   
 
 }
 
@@ -112,6 +127,12 @@ footer a {
 
 }
 
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
 footer li {
+    
     list-style-type: none;
 }
