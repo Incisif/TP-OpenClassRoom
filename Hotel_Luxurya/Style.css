@@ -52,11 +52,17 @@ header img {
 }
 
 
+
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
     font-size: 1em;
+    padding-left: 0;
+}
+nav li{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
 
