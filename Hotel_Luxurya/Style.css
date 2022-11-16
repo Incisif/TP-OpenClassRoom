@@ -51,6 +51,7 @@ header img {
     width: 5em;
 }
 
+
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -174,10 +175,10 @@ footer {
 
 footer ul {
 
-    display: flex;    
+    display: flex;
     list-style-type: none;
 }
-footer li{
+
+footer li {
     margin-right: 2em;
 }
-
