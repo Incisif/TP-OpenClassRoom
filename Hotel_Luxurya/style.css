@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'abelregular';
-    src: url('abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('abel-regular-webfont.eot?#iefix') format('rembedded-opentype'),
         url('abel-regular-webfont.woff2') format('woff2'),
         url('fonts/abel-regular-webfont.woff') format('woff'),
         url('fonts/abel-regular-webfont.ttf') format('truetype'),
@@ -17,21 +17,21 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     margin-bottom: 0px;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 h3 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .bracket {
     color: #e5ba79;
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 h1,
@@ -52,20 +52,20 @@ header {
 }
 
 header img {
-    width: 5em;
+    width: 5rem;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    font-size: 1em;
+    font-size: 1rem;
     padding-left: 0;
 }
 
 nav li {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 
@@ -87,7 +87,7 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2em 0px;
+    margin: 2rem 0px;
 
 }
 
@@ -96,16 +96,16 @@ a:hover {
     width: auto;
 }
 
-.item {
+.portfolio__item {
     text-align: center;
     list-style-type: none;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 2em 1.2em;
+    margin: 2rem 1.2rem;
 }
 
-.item p {
-    margin-top: 1.2em;
+.portfolio__item p {
+    margin-top: 1.2rem;
 }
 
 section {
@@ -113,7 +113,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3em;
+    padding-bottom: 3rem;
 }
 
 section article {
@@ -122,19 +122,19 @@ section article {
 
 section h2 {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 article {
     display: flex;
     max-width: 900px;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 article img {
     width: 25%;
     min-width: 400px;
-    margin-left: 2em;
+    margin-left: 2rem;
     border-style: solid;
     border-width: 0px 0px 6px 6px;
     border-color: #e5ba79;
@@ -145,21 +145,21 @@ article img {
     flex-direction: column;
     align-content: space-between;
     text-align: justify;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 button {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     background-color: white;
     border: 2px solid #e5ba79;
     transition-duration: 0.4s;
     width: fit-content;
     align-self: center;
-    padding: 1em;
+    padding: 1rem;
     font-weight: bold;
     color: #e5ba79;
-    margin: 2em;
+    margin: 2rem;
 }
 
 button:hover {
@@ -174,8 +174,8 @@ button:hover {
 }
 
 fieldset {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     color: #F5F5F5;
 }
 
@@ -184,7 +184,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: #cac9c9;
-    height: 5em;
+    height: 5rem;
 }
 
 
@@ -196,7 +196,7 @@ footer ul {
 }
 
 footer li {
-    margin-right: 2em;
+    margin-right: 2rem;
 }
 
 @media screen and (max-width: 1010px) {
